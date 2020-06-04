@@ -1,5 +1,5 @@
 # COS_upload
-##腾讯云上传
+## 1.腾讯云上传
 ``` bush
 1. npm 安装 npm i cos-js-sdk-v5 --save
 
@@ -9,7 +9,7 @@
 </script>
 3.创建上传对象, 添加密钥--> (此方法极其不推荐, 本地自己开发可以暂时这么写)
 ```
-## 上传对象
+## 1.上传对象
 ``` bush
 var cos = new COS({
     SecretId: 'COS_SECRETID',  PS: ==>('COS_SECRETID' ) ==> 自己腾讯云管理后台可以查看
@@ -36,7 +36,7 @@ cos.putObject({
     }
   })
 ```
-## 云点播 tcVod
+## 2.云点播 tcVod
 ``` bush
 const tcVod = new TcVod({
                 getSignature: getSignature
